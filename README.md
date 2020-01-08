@@ -26,7 +26,7 @@ In this project the following steps were taken:
 3. Perform a similarity analysis with the 3-attribute set and the reviews and choose 300 reviews that have the highest similarity scores.
 4. Perform sentiment analysis on these 300 reviews and sort them by the sentiment scores.
 5. Based on the above steps, recommend 3 beers to the customer.
-6.
+6. Identify the highest rated beers by calculating average ratings for each beer and ignoring the similarity and sentiment scores.
 
 ## Analysis and Insights
  
@@ -63,6 +63,7 @@ Kentucky Brunch Brand Stout | 0.757998 | 28.468 | 4.544
 Marshmallow Handjee | 0.771086 | 34.268 | 2.296
 
 **5. Insights**
+
 **Our Recommended Beers**
 - Montmorency Vs Balaton
 - Scaled way up
