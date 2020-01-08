@@ -2,10 +2,10 @@
 This project is a part of the coursework for Text Analytics. Here we scrapped Beeradvocate.com and implemented various text mining concepts to analyze the reviews on various craft beers and build a recommendation system.
 
 ## Team Members:
-1. Anshika Ahuja
-2. Mohini Agrawal
-3. Sachin Balakrishna
-4. Pooja Dawada
+- Anshika Ahuja
+- Mohini Agrawal
+- Sachin Balakrishna
+- Pooja Dawada
 
 ## Table of contents
 - [Introduction](https://github.com/anshikaahuja/Beeradvocate-Text-Analytics/blob/master/README.md#introduction)
@@ -49,7 +49,7 @@ Congress Street IPA | 3.84 | 0.866352
 **3. Top Reviews with highest sentiment scores**
 
 Beer Name | Similarity score | Positive | Negative
------------- | ------------- | -------------
+------------ | ------------- | ------------- | -------------
 Montmorency Vs Balaton | 0.835020 | 48.7 | 0.0
 Scaled Up | 0.841315 | 47.6 | 0.0
 Aurelian Lure | 0.844844 | 42.2 | 0.0
@@ -57,7 +57,7 @@ Aurelian Lure | 0.844844 | 42.2 | 0.0
 **4. Top Rated Beers from the dataset**
 
 Beer Name | Similarity score | Positive | Negative
------------- | ------------- | -------------
+------------ | ------------- | ------------- | -------------
 Hunahpu's Imperial Stout - Double Barrel Aged | 0.749020 | 23.464 | 4.560
 Kentucky Brunch Brand Stout | 0.757998 | 28.468 | 4.544
 Marshmallow Handjee | 0.771086 | 34.268 | 2.296
