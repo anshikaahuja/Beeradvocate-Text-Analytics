@@ -32,22 +32,49 @@ In this project the following steps were taken:
  
 **1. Attributes chosen**
 
-**Hoppy:** Herbal, earthy, spicy, or citric aromas and flavors of hops
-**Complex:** Multidimensional; many flavors and sensations on the palate
+**Hoppy:** Herbal, earthy, spicy, or citric aromas and flavors of hops                                                                   
+**Complex:** Multidimensional; many flavors and sensations on the palate                                                                 
 **Crisp:** Highly carbonated; effervescent
 
-**2. Our Recommendation**
+**2. Top Reviews with highest similarity scores**
+
+Beer Name | Rating | Similarity score
+------------ | ------------- | -------------
+Heavy Mettle | 4.74 | 0.879106
+Abrasive Ale | 4.77 | 0.872659
+Doubleganger | 4.52 | 0.867791
+Blabaer Lambik | 4.65 | 0.866866
+Congress Street IPA | 3.84 | 0.866352
+
+**3. Top Reviews with highest sentiment scores**
+
+Beer Name | Similarity score | Positive | Negative
+------------ | ------------- | -------------
+Montmorency Vs Balaton | 0.835020 | 48.7 | 0.0
+Scaled Up | 0.841315 | 47.6 | 0.0
+Aurelian Lure | 0.844844 | 42.2 | 0.0
+
+**4. Top Rated Beers from the dataset**
+
+Beer Name | Similarity score | Positive | Negative
+------------ | ------------- | -------------
+Hunahpu's Imperial Stout - Double Barrel Aged | 0.749020 | 23.464 | 4.560
+Kentucky Brunch Brand Stout | 0.757998 | 28.468 | 4.544
+Marshmallow Handjee | 0.771086 | 34.268 | 2.296
+
+**5. Insights**
+**Our Recommended Beers**
 - Montmorency Vs Balaton
 - Scaled way up
 - Aurelian Lure
 
-As we can see in the dataframe above, our recommendations filter out the positive sentiments quite well. All are having a pretty high similarity scores in excess of 0.8 and we couldn’t find much negative sentiments either associated with the attributes.
+As we can see above, our recommendations filter out the positive sentiments quite well. All are having a pretty high similarity scores in excess of 0.8 and we couldn’t find much negative sentiments either associated with the attributes.
 
 After manually glancing through the user reviews for these, we could find that people love the Cherry flavor and the hit of Citrus and raspberry in 'Montmorency Vs Balaton' which backs up the 'hoppy' preference of our user. Same is the case with our second recommendation - 'Scaled Way Up', which is highly regarded for its malty and citrus flavor of oranges, peach, tangerines and grapefruit. Users who love the sourness of citrus rated the 'Aurelian Lure' quite high. This suggests all of our recommendations have a rich mix of fruity flavours and do justice to the user preference of 'complex' and ‘hoppy’ beers.
 
 They have high positive reviews for their med-high carbonation as well. Scaled way up has been rated for its sharp carbonation and silky feel on the palate. People love the fizziness of ‘Montmorency Vs Balaton’ and the balanced carbonation of ‘Aurelian Lure’.
 
-Top Rated Beers from the dataset:
+**Top Rated Beers from the dataset:**
 - Hunahpu's Imperial Stout - Double Barrel Aged
 - Kentucky Brunch Brand Stout
 - Marshmallow Handjee
@@ -57,5 +84,3 @@ From the user reviews of these top-rated beers, we could understand that none of
 We could infer that these 3 beers are quite good when considered on the specific tastes they offer, but lack variety and a mix of fruity flavours that our user loves.
 
 In addition, we found that all three are mild-med carbonated beers. ‘Marshmallow Handjee’ has a mixed review where one user suggested that it is low on carbonation while another rated it sharp. Users love the smoothness of ‘Kentucky Brunch Brand Stout’, however we could find a few complaining about the lack of carbonation. ‘Hunahpu's Imperial Stout’ is syrupy and users unanimously expressed their mild-med carbonation preference there.
-
-
