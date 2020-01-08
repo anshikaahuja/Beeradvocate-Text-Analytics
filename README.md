@@ -8,16 +8,16 @@ This project is a part of the coursework for Text Analytics. Here we scrapped Be
 4. Pooja Dawada
 
 ## Table of contents
-- [Introduction](https://github.com/anshikaahuja/BeerAdvocate-Text-Analytics/blob/master/README.md#introduction)
-- [Data Used](https://github.com/anshikaahuja/BeerAdvocate-Text-Analytics/blob/master/README.md#data-used)
-- [Approach](https://github.com/anshikaahuja/BeerAdvocate-Text-Analytics/blob/master/README.md#approach)
-- [Analysis and Insights](https://github.com/anshikaahuja/BeerAdvocate-Text-Analytics/blob/master/README.md#analysis-and-insights)
+- [Introduction](https://github.com/anshikaahuja/Beeradvocate-Text-Analytics/blob/master/README.md#introduction)
+- [Data Used](https://github.com/anshikaahuja/Beeradvocate-Text-Analytics/blob/master/README.md#data-used)
+- [Approach](https://github.com/anshikaahuja/Beeradvocate-Text-Analytics/blob/master/README.md#approach)
+- [Analysis and Insights](https://github.com/anshikaahuja/Beeradvocate-Text-Analytics/blob/master/README.md#analysis-and-insights)
 
 ## Introduction
-Beeradvocate.com is an online forum for beers. People use this website to post reviews about their experience with various beers and as well as provide ratings for the beers. As an analytics consultant to a (i) brand manager, (ii) product manager and (iii) advertising manager, our job was to give advice/insights to these individuals based on the analysis of social media conversations on the website
+Beeradvocate.com is an online forum for beers. People use this website to post reviews about their experience with various beers as well as provide ratings for the beers. The objective of the project was to create the building blocks of a crowdsourced recommendation system. The recommendation system was required to accept user inputs about desired attributes of a product and come up with 3 recommendations.
 
 ## Data Used
-We scraped around 25 reviews about various beers from [BeerAdvocate](https://www.beeradvocate.com/beer/top-rated/) using Selenium. The scraped data can be found in `data.csv`
+We scraped around 6000 reviews about various craft beers from [BeerAdvocate](https://www.beeradvocate.com/beer/top-rated/) using Selenium. The scraped data can be found in `data.csv`
 
 ## Approach
 In this project the following steps were taken:
