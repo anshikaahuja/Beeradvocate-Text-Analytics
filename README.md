@@ -8,10 +8,10 @@ This project is a part of the coursework for Text Analytics. Here we scrapped Be
 - Pooja Dawada
 
 ## Table of contents
-- [Introduction](https://github.com/anshikaahuja/Beeradvocate-Text-Analytics/blob/master/README.md#introduction)
-- [Data Used](https://github.com/anshikaahuja/Beeradvocate-Text-Analytics/blob/master/README.md#data-used)
-- [Approach](https://github.com/anshikaahuja/Beeradvocate-Text-Analytics/blob/master/README.md#approach)
-- [Analysis and Insights](https://github.com/anshikaahuja/Beeradvocate-Text-Analytics/blob/master/README.md#analysis-and-insights)
+- [Introduction](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#introduction)
+- [Data Used](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#data-used)
+- [Approach](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#approach)
+- [Analysis and Insights](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#analysis-and-insights)
 
 ## Introduction
 Beeradvocate.com is an online forum for beers. People use this website to post reviews about their experience with various beers as well as provide ratings for the beers. The objective of the project was to create the building blocks of a crowdsourced recommendation system. The recommendation system was required to accept user inputs about desired attributes of a product and come up with 3 recommendations.
