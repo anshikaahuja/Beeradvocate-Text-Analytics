@@ -1,11 +1,5 @@
 # Beeradvocate-Text-Analytics
-This project is a part of the coursework for Text Analytics. Here we scrapped Beeradvocate.com and implemented various text mining concepts to analyze the reviews on various craft beers and build a recommendation system.
-
-## Team Members:
-- Anshika Ahuja
-- Mohini Agrawal
-- Sachin Balakrishna
-- Pooja Dawada
+This project is a part of the coursework for Text Analytics at the University of Texas at Austin. Here we scrapped Beeradvocate.com and implemented various text mining concepts to analyze the reviews on various craft beers and build a recommendation system.
 
 ## Table of contents
 - [Introduction](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#introduction)
