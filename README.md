@@ -23,8 +23,8 @@ We scraped around 6000 reviews about various craft beers from [BeerAdvocate](htt
 In this project the following steps were taken:
 1. Write a scraper using Selenium on python to fetch posts from Beeradvocate.com
 2. Identify 3 attributes assuming that a customer who will be using this recommendation system has specified 3 attributes in a beer
-3. Perform a similarity analysis with the 3-attribute set and the reviews and choose 300 reviews that have the highest similarity scores.
-4. Perform sentiment analysis on these 300 reviews and sort them by the sentiment scores.
+3. Perform a similarity analysis with the 3-attribute set and the reviews using [SPACY](https://github.com/explosion/spaCy) and choose 300 reviews that have the highest similarity scores.
+4. Perform sentiment analysis using [VADER](https://github.com/cjhutto/vaderSentiment) on these 300 reviews and sort them by the sentiment scores.
 5. Based on the above steps, recommend 3 beers to the customer.
 6. Identify the highest rated beers by calculating average ratings for each beer and ignoring the similarity and sentiment scores.
 
