@@ -11,7 +11,9 @@ This project is a part of the coursework for Text Analytics at the University of
 - [Analysis and Insights](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#analysis-and-insights)
 
 ## Business Problem
-Beeradvocate.com is an online forum for beers. People use this website to post reviews about their experience with various beers as well as provide ratings for the beers. The objective of the project was to create the building blocks of a crowdsourced recommendation system. The recommendation system was required to accept user inputs about desired attributes of a product and come up with 3 recommendations.
+Beeradvocate.com is an online forum for beers. People use this website to post reviews about their experience with various beers as well as provide ratings for the beers. The objective of the project was to create the building blocks of a crowdsourced recommendation system. The recommendation system was required to accept user inputs about desired attributes of a product and come up with 3 recommendations. <br />
+
+[Analysis.ipnyb](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/Analysis.ipynb) file has the code for the analysis
 
 ## Data Used
 We scraped around 6000 reviews about various craft beers from [BeerAdvocate](https://www.beeradvocate.com/beer/top-rated/) using Selenium. The scraped data can be found in `data.csv`
@@ -23,8 +25,7 @@ In this project the following steps were taken:
 3. Perform a similarity analysis with the 3-attribute set and the reviews using [SPACY](https://github.com/explosion/spaCy) and choose 300 reviews that have the highest similarity scores.
 4. Perform sentiment analysis using [VADER](https://github.com/cjhutto/vaderSentiment) on these 300 reviews and sort them by the sentiment scores.
 5. Based on the above steps, recommend 3 beers to the customer.
-6. Identify the highest rated beers by calculating average ratings for each beer and ignoring the similarity and sentiment scores. <br />
-[Analysis.ipnyb](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/Analysis.ipynb) file has the code for the analysis
+6. Identify the highest rated beers by calculating average ratings for each beer and ignoring the similarity and sentiment scores.
 
 ## Algorithms/Libraries Used
 - Scraping using Selenium
