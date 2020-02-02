@@ -1,5 +1,5 @@
 # Beeradvocate-Text-Analytics
-![Alt Text](Intro.PNG) <br>
+![Alt Text](Intro.PNG) <br />
 This project is a part of the coursework for Text Analytics at the University of Texas at Austin. Here we scraped Beeradvocate.com and implemented various text mining concepts to analyze the reviews on various craft beers and build a recommendation system.
 
 ## Table of contents
