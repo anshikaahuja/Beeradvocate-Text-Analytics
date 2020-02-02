@@ -23,7 +23,7 @@ In this project the following steps were taken:
 3. Perform a similarity analysis with the 3-attribute set and the reviews using [SPACY](https://github.com/explosion/spaCy) and choose 300 reviews that have the highest similarity scores.
 4. Perform sentiment analysis using [VADER](https://github.com/cjhutto/vaderSentiment) on these 300 reviews and sort them by the sentiment scores.
 5. Based on the above steps, recommend 3 beers to the customer.
-6. Identify the highest rated beers by calculating average ratings for each beer and ignoring the similarity and sentiment scores.
+6. Identify the highest rated beers by calculating average ratings for each beer and ignoring the similarity and sentiment scores. <br />
 [Analysis.ipnyb](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/Analysis.ipynb) file has the code for the analysis
 
 ## Algorithms/Libraries Used
