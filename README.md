@@ -1,14 +1,15 @@
 # Beeradvocate-Text-Analytics
-![Alt Text](Intro.PNG)
+![Alt Text](Intro.PNG) <br>
 This project is a part of the coursework for Text Analytics at the University of Texas at Austin. Here we scraped Beeradvocate.com and implemented various text mining concepts to analyze the reviews on various craft beers and build a recommendation system.
 
 ## Table of contents
-- [Introduction](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#introduction)
+- [Business Problem](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#introduction)
 - [Data Used](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#data-used)
 - [Approach](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#approach)
+- [Algorithms/Libraries Used](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#algorithms/libraries-used)
 - [Analysis and Insights](https://github.com/anshikaahuja/Crowdsourced-Recommendation-System-Beeradvocate/blob/master/README.md#analysis-and-insights)
 
-## Introduction
+## Business Problem
 Beeradvocate.com is an online forum for beers. People use this website to post reviews about their experience with various beers as well as provide ratings for the beers. The objective of the project was to create the building blocks of a crowdsourced recommendation system. The recommendation system was required to accept user inputs about desired attributes of a product and come up with 3 recommendations.
 
 ## Data Used
@@ -22,6 +23,12 @@ In this project the following steps were taken:
 4. Perform sentiment analysis using [VADER](https://github.com/cjhutto/vaderSentiment) on these 300 reviews and sort them by the sentiment scores.
 5. Based on the above steps, recommend 3 beers to the customer.
 6. Identify the highest rated beers by calculating average ratings for each beer and ignoring the similarity and sentiment scores.
+
+## Algorithms/Libraries Used
+- Scraping using Selenium
+- Word Frequency analysis using NLTK
+- Similarity Analysis using SPACY
+- Sentiment Analysis using VADER
 
 ## Analysis and Insights
  
