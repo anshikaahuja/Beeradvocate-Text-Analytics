@@ -24,6 +24,7 @@ In this project the following steps were taken:
 4. Perform sentiment analysis using [VADER](https://github.com/cjhutto/vaderSentiment) on these 300 reviews and sort them by the sentiment scores.
 5. Based on the above steps, recommend 3 beers to the customer.
 6. Identify the highest rated beers by calculating average ratings for each beer and ignoring the similarity and sentiment scores.
+[Analysis.ipnyb]
 
 ## Algorithms/Libraries Used
 - Scraping using Selenium
